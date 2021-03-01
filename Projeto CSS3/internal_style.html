@@ -8,6 +8,15 @@
 
     <style type="text/css">
 
+        #conteudo{
+           /* 
+           border:  2px inset yellow;*/
+           border-color: red black grey ;
+           border-width: 15px 10px 5px 2px;
+           border-style: solid;
+
+        }
+
         p{
             color: red;
             
@@ -17,6 +26,21 @@
            color: blue;
         }
 
+        .formatacao{
+            color: rgb(33,47,72,.7) ;
+            font-size: 30px;
+            background: #28B463;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .texto{
+            font-size: 2em;
+        }
+        div{
+            font-size:30px;
+        }
+        .texto2{
+            font-size:1em;
+        }
     
     </style>
 
@@ -36,7 +60,7 @@
 
     <h1>Estilo CSS(cascading style sheets</h1>
     <h2>Inline Style-formações feitas diretamente na página</h2>
-    <p>
+    <p class="texto">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit.
          Ex fugiat iure dolores nobis, explicabo odit incidunt
         inventore ut? Voluptates quod voluptatem debitis, beatae 
@@ -51,6 +75,31 @@
         iusto eos quisquam blanditiis architecto praesentium
         aliquam?
     </p>
+
+    <div id="conteudo">
+        border<br>
+        border<br>
+        border<br>
+    </div>
+    
+    <h1>Fontes  e Cores</h1>
+
+    <p class="formatacao">
+        conteúdo
+
+    </p>
+
+    <div>
+        <p class="texto2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Ex fugiat iure dolores nobis, explicabo odit incidunt
+            inventore ut? Voluptates quod voluptatem debitis, beatae 
+            iusto eos quisquam blanditiis architecto praesentium
+            aliquam?
+        </p>
+    
+
+    </div>
 
 </body>
 
